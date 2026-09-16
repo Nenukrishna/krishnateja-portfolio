@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from 'react';
 import Reveal from './Reveal';
+import { asset } from '@/lib/base';
 
 const STATS = [
   ['127', 'Ad masters delivered'],
@@ -145,15 +146,15 @@ export default function Hero() {
 
             <video
               ref={vid}
-              poster="/media/showreel-poster.jpg"
+              poster={asset("/media/showreel-poster.jpg")}
               autoPlay
               muted
               loop
               playsInline
               preload="metadata"
             >
-              <source src="/media/showreel-1600.mp4" type="video/mp4" media="(min-width: 861px)" />
-              <source src="/media/showreel-1024.mp4" type="video/mp4" />
+              <source src={asset("/media/showreel-1600.mp4")} type="video/mp4" media="(min-width: 861px)" />
+              <source src={asset("/media/showreel-1024.mp4")} type="video/mp4" />
             </video>
 
             <div className="reel-ctl">

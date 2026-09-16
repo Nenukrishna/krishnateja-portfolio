@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev -p 3111",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "build:pages": "NEXT_PUBLIC_BASE_PATH=/krishnateja-portfolio next build"
   },
   "dependencies": {
     "next": "15.5.2",

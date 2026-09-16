@@ -4,6 +4,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import Reveal from './Reveal';
 import works from '@/lib/works.json';
+import { asset } from '@/lib/base';
 
 const BRANDS = ['All', ...Array.from(new Set(works.map((w) => w.brand)))];
 
@@ -42,8 +43,8 @@ function Card({ work, onOpen }) {
       tabIndex={0}
       aria-label={`Play ${work.brand} — ${work.title}`}
     >
-      <img src={`/media/posters/${work.slug}.jpg`} alt="" loading="lazy" decoding="async" />
-      <video ref={vid} src={`/media/previews/${work.slug}.mp4`} muted loop playsInline preload="none" />
+      <img src={asset(`/media/posters/${work.slug}.jpg`)} alt="" loading="lazy" decoding="async" />
+      <video ref={vid} src={asset(`/media/previews/${work.slug}.mp4`)} muted loop playsInline preload="none" />
       <div className="card-shade" />
       <div className="card-play">
         <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
@@ -98,8 +99,8 @@ function Lightbox({ list, index, setIndex, onClose }) {
         <div className="lb-video">
           <video
             key={work.slug}
-            src={`/media/ads/${work.slug}.mp4`}
-            poster={`/media/posters/${work.slug}.jpg`}
+            src={asset(`/media/ads/${work.slug}.mp4`)}
+            poster={asset(`/media/posters/${work.slug}.jpg`)}
             controls
             autoPlay
             playsInline
