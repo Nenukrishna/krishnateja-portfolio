@@ -289,44 +289,50 @@ h2.title {
 .hero {
   position: relative;
   z-index: 2;
-  padding: 130px 0 96px;
+  padding: 132px 0 84px;
   overflow: hidden;
 }
 
 .hero-glow {
   position: absolute;
-  width: 900px;
-  height: 900px;
+  width: 980px;
+  height: 980px;
   border-radius: 50%;
-  left: -300px;
-  top: -180px;
+  left: -320px;
+  top: -260px;
   background: radial-gradient(circle, rgba(255, 59, 31, 0.17), transparent 62%);
   filter: blur(30px);
   pointer-events: none;
 }
 .hero-glow.b {
   left: auto;
-  right: -340px;
-  top: 220px;
-  width: 760px;
-  height: 760px;
+  right: -380px;
+  top: 120px;
+  width: 820px;
+  height: 820px;
   background: radial-gradient(circle, rgba(255, 120, 40, 0.09), transparent 64%);
 }
 
-.hero-grid {
+.hero-top {
   position: relative;
-  display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
-  gap: 64px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  margin-bottom: 52px;
+}
+
+.hero-top .kicker {
+  justify-content: center;
 }
 
 .hero h1 {
-  font-size: clamp(46px, 7.2vw, 92px);
+  font-size: clamp(42px, 6.4vw, 84px);
   font-weight: 900;
-  line-height: 0.93;
+  line-height: 0.95;
   letter-spacing: -0.05em;
-  margin: 22px 0 26px;
+  margin: 22px 0 24px;
+  max-width: 16ch;
 }
 .hero h1 em {
   font-style: normal;
@@ -339,7 +345,7 @@ h2.title {
   font-size: clamp(16px, 1.5vw, 18.5px);
   font-weight: 300;
   line-height: 1.62;
-  max-width: 47ch;
+  max-width: 62ch;
 }
 .hero-sub b {
   color: var(--text);
@@ -349,38 +355,12 @@ h2.title {
 .hero-cta {
   display: flex;
   gap: 13px;
-  margin: 36px 0 44px;
+  margin-top: 34px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-.stats {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 18px;
-  border-top: 1px solid var(--line);
-  padding-top: 26px;
-}
-
-.stat b {
-  display: block;
-  font-size: clamp(24px, 3vw, 33px);
-  font-weight: 800;
-  letter-spacing: -0.045em;
-  line-height: 1;
-  font-variant-numeric: tabular-nums;
-}
-.stat span {
-  display: block;
-  margin-top: 7px;
-  font-family: var(--font-mono);
-  font-size: 10px;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: var(--text-4);
-  line-height: 1.5;
-}
-
-/* showreel player -------------------------------------------- */
+/* 16:9 showreel player ---------------------------------------- */
 .reel {
   position: relative;
   border-radius: var(--r-lg);
@@ -388,13 +368,12 @@ h2.title {
   background: var(--surface);
   border: 1px solid var(--line-strong);
   box-shadow:
-    0 50px 110px -30px rgba(0, 0, 0, 0.95),
+    0 60px 130px -40px rgba(0, 0, 0, 0.95),
     0 0 0 1px rgba(255, 59, 31, 0.07),
-    0 0 90px -40px rgba(255, 59, 31, 0.45);
-  aspect-ratio: 9 / 16;
-  height: min(78vh, 780px);
-  width: auto;
-  max-width: 100%;
+    0 0 120px -50px rgba(255, 59, 31, 0.45);
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  max-width: 1120px;
   margin: 0 auto;
 }
 
@@ -402,19 +381,20 @@ h2.title {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
 }
 
 .reel-tag {
   position: absolute;
-  top: 14px;
-  left: 14px;
+  top: 16px;
+  left: 16px;
   z-index: 3;
   display: inline-flex;
   align-items: center;
   gap: 7px;
-  padding: 6px 12px;
+  padding: 7px 13px;
   border-radius: 100px;
-  background: rgba(8, 8, 10, 0.6);
+  background: rgba(8, 8, 10, 0.62);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid var(--line);
@@ -434,7 +414,7 @@ h2.title {
 
 .reel-ctl {
   position: absolute;
-  right: 14px;
+  right: 16px;
   bottom: 18px;
   z-index: 3;
   display: flex;
@@ -476,6 +456,35 @@ h2.title {
   background: var(--accent);
   box-shadow: 0 0 12px var(--accent);
   transition: width 0.2s linear;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1120px;
+  margin: 54px auto 0;
+  border-top: 1px solid var(--line);
+  padding-top: 28px;
+}
+
+.stat b {
+  display: block;
+  font-size: clamp(26px, 3vw, 36px);
+  font-weight: 800;
+  letter-spacing: -0.045em;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.stat span {
+  display: block;
+  margin-top: 8px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text-4);
+  line-height: 1.5;
 }
 
 /* ── MARQUEE ─────────────────────────────────────────────────── */
@@ -1033,15 +1042,6 @@ h2.title {
   }
   .hero {
     padding: 108px 0 72px;
-  }
-  .hero-grid {
-    grid-template-columns: 1fr;
-    gap: 46px;
-  }
-  .reel {
-    width: min(100%, 360px);
-    height: auto;
-    max-width: none;
   }
   .about {
     grid-template-columns: 1fr;

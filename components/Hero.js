@@ -4,10 +4,10 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import Reveal from './Reveal';
 
 const STATS = [
-  ['127', 'Ad masters\ndelivered'],
-  ['6', 'Fintech\nproducts'],
-  ['7', 'Indian\nlanguages'],
-  ['4+', 'Years in\nthe cut'],
+  ['127', 'Ad masters delivered'],
+  ['6', 'Fintech products'],
+  ['7', 'Indian languages'],
+  ['4+', 'Years in the cut'],
 ];
 
 function IconSound({ muted }) {
@@ -71,25 +71,21 @@ export default function Hero() {
     return () => v.removeEventListener('timeupdate', onTime);
   }, []);
 
-  // Mobile browsers routinely refuse the initial autoplay even when muted.
-  // Try once the metadata is in, then again on the visitor's first interaction.
+  // Mobile browsers routinely refuse the initial autoplay even when muted, and
+  // every browser pauses media in a backgrounded tab.
   useEffect(() => {
     const v = vid.current;
     if (!v) return;
-
     const kick = () => {
       if (v.paused && !paused) v.play().catch(() => {});
     };
-
     kick();
     v.addEventListener('loadeddata', kick);
     const opts = { passive: true };
     ['pointerdown', 'touchstart', 'keydown', 'scroll'].forEach((e) =>
       window.addEventListener(e, kick, opts)
     );
-    // Browsers pause media in a backgrounded tab — pick it back up on return.
     document.addEventListener('visibilitychange', kick);
-
     return () => {
       v.removeEventListener('loadeddata', kick);
       ['pointerdown', 'touchstart', 'keydown', 'scroll'].forEach((e) =>
@@ -104,57 +100,43 @@ export default function Hero() {
       <div className="hero-glow" aria-hidden="true" />
       <div className="hero-glow b" aria-hidden="true" />
 
-      <div className="wrap hero-grid">
-        <div>
-          <Reveal>
-            <span className="kicker">Performance Video Editor · Bengaluru</span>
-          </Reveal>
+      <div className="wrap hero-top">
+        <Reveal>
+          <span className="kicker">Performance Video Editor · Bengaluru</span>
+        </Reveal>
 
-          <Reveal delay={70}>
-            <h1>
-              I cut ads
-              <br />
-              that survive
-              <em>the first second.</em>
-            </h1>
-          </Reveal>
+        <Reveal delay={70}>
+          <h1>
+            I cut ads that survive
+            <em>the first second.</em>
+          </h1>
+        </Reveal>
 
-          <Reveal delay={140}>
-            <p className="hero-sub">
-              I&apos;m <b>Krishna Teja</b> — a performance video editor and ad creative
-              strategist. I build hook-first video for <b>Meta &amp; Google</b>, from script and
-              AI-generated footage through to the final graded master. Currently shipping growth
-              creative for <b>ScorePro, AlertPay, MyAutoPay and Khatabook</b>.
-            </p>
-          </Reveal>
+        <Reveal delay={140}>
+          <p className="hero-sub">
+            I&apos;m <b>Krishna Teja</b> — a performance video editor and ad creative
+            strategist building hook-first video for <b>Meta &amp; Google</b>, from script and
+            AI-generated footage through to the final graded master.
+          </p>
+        </Reveal>
 
-          <Reveal delay={210}>
-            <div className="hero-cta">
-              <a href="#work" className="btn btn-primary">
-                See the work
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M5 12h14M13 6l6 6-6 6" />
-                </svg>
-              </a>
-              <a href="mailto:krishnateja0911@gmail.com" className="btn btn-ghost">
-                krishnateja0911@gmail.com
-              </a>
-            </div>
-          </Reveal>
+        <Reveal delay={210}>
+          <div className="hero-cta">
+            <a href="#work" className="btn btn-primary">
+              See the work
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </a>
+            <a href="mailto:krishnateja0911@gmail.com" className="btn btn-ghost">
+              krishnateja0911@gmail.com
+            </a>
+          </div>
+        </Reveal>
+      </div>
 
-          <Reveal delay={280}>
-            <div className="stats">
-              {STATS.map(([n, l]) => (
-                <div className="stat" key={l}>
-                  <b>{n}</b>
-                  <span style={{ whiteSpace: 'pre-line' }}>{l}</span>
-                </div>
-              ))}
-            </div>
-          </Reveal>
-        </div>
-
-        <Reveal delay={160}>
+      <Reveal delay={120}>
+        <div className="wrap">
           <div className="reel">
             <span className="reel-tag">
               <i />
@@ -170,8 +152,8 @@ export default function Hero() {
               playsInline
               preload="metadata"
             >
-              <source src="/media/showreel-1080.mp4" type="video/mp4" media="(min-width: 941px)" />
-              <source src="/media/showreel-720.mp4" type="video/mp4" />
+              <source src="/media/showreel-1600.mp4" type="video/mp4" media="(min-width: 861px)" />
+              <source src="/media/showreel-1024.mp4" type="video/mp4" />
             </video>
 
             <div className="reel-ctl">
@@ -187,8 +169,21 @@ export default function Hero() {
               <i style={{ width: `${pct}%` }} />
             </div>
           </div>
-        </Reveal>
-      </div>
+        </div>
+      </Reveal>
+
+      <Reveal delay={200}>
+        <div className="wrap">
+          <div className="stats">
+            {STATS.map(([n, l]) => (
+              <div className="stat" key={l}>
+                <b>{n}</b>
+                <span>{l}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </Reveal>
     </section>
   );
 }
