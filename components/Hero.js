@@ -5,8 +5,8 @@ import Reveal from './Reveal';
 import { asset } from '@/lib/base';
 
 const STATS = [
-  ['120+', 'Ad masters delivered'],
-  ['6', 'Fintech products'],
+  ['1,000+', 'Ad masters delivered'],
+  ['7', 'Apps shipped for'],
   ['7', 'Indian languages'],
   ['4+', 'Years in the cut'],
 ];

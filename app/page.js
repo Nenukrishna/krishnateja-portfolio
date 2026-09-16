@@ -66,7 +66,7 @@ const XP = [
     now: true,
     points: [
       'Growth creative for ScorePro, AlertPay, MyAutoPay and the Khatabook app',
-      'Shipped 120+ delivered 9:16 ad masters across six fintech products',
+      'Shipped delivered 9:16 ad masters across six fintech products',
       'Wrote and cut hook-led scripts aimed at install and retention targets',
       'Built an AI-assisted production pipeline — generation, lipsync, VO, QC',
       'Localised campaigns into seven Indian languages from a single master',
@@ -77,10 +77,10 @@ const XP = [
     role: 'Performance Video Editor & Creative Strategist',
     org: 'PrimeTrace Technologies',
     points: [
-      'High-converting video ads for Meta and Google campaigns',
-      'App growth creative for Crafto — AI-generated ads for user acquisition and engagement',
-      'Developed hook-based scripts to improve retention',
-      'Produced AI-powered ad creatives using ChatGPT, Gemini and Vertex',
+      'Close to a thousand ad creatives for Crafto, a WhatsApp status app — the volume account that taught me to cut fast without cutting corners',
+      'Ran the full AI pipeline: generation, lipsync, VO, QC, then edit, graphics and grade',
+      'Wrote hook-based scripts aimed at installs and day-one retention',
+      'Shipped daily to Meta and Google with the creative tested and iterated on performance',
     ],
   },
   {
@@ -267,9 +267,10 @@ export default function Page() {
                   Right now I build growth creative at <b>Khatabook</b> for ScorePro, AlertPay,
                   MyAutoPay and the core app — writing hooks, generating and directing footage
                   with AI, then cutting, scoring, grading and mixing the master myself. Before
-                  that I ran app-growth creative for <b>Crafto</b> at PrimeTrace, and shot and cut
-                  branded video for <b>Medicover Hospitals</b>, <b>DNA Skin Clinic</b> and
-                  <b>Movement Fitness</b>.
+                  that I ran app-growth creative for <b>Crafto</b> at PrimeTrace — close to a
+                  thousand ads for a WhatsApp status app, which is where I learned to work at
+                  volume — and shot and cut branded video for <b>Medicover Hospitals</b>,
+                  <b>DNA Skin Clinic</b> and <b>Movement Fitness</b>.
                 </p>
                 <p>
                   I care about the things that actually move retention: where the first cut lands,

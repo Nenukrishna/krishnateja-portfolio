@@ -1,5 +1,77 @@
 [
   {
+    "slug": "ap-yamraj",
+    "brand": "AlertPay",
+    "tag": "AlertPay",
+    "title": "Yamraj vs Soundbox",
+    "fmt": "Meta · 9:16",
+    "ar": "9:16",
+    "hook": "Mythology meets merchant hardware. Absurd premise, character animation, clean product landing."
+  },
+  {
+    "slug": "ap-samosa",
+    "brand": "AlertPay",
+    "tag": "AlertPay",
+    "title": "Samosa & Aloo",
+    "fmt": "Meta · 9:16 · Character",
+    "ar": "9:16",
+    "hook": "Two fried-snack characters run the whole spot. Absurd enough that nobody scrolls, on-brief enough that it converts."
+  },
+  {
+    "slug": "ap-robot-panipuri",
+    "brand": "AlertPay",
+    "tag": "AlertPay",
+    "title": "Robot Pani Puri",
+    "fmt": "Meta · 9:16",
+    "ar": "9:16",
+    "hook": "A robot runs the pani puri stall. The joke earns the attention; the payment alert closes it."
+  },
+  {
+    "slug": "ap-robot-ufo",
+    "brand": "AlertPay",
+    "tag": "AlertPay",
+    "title": "Robot & the UFO",
+    "fmt": "Meta · 9:16",
+    "ar": "9:16",
+    "hook": "Sci-fi cold open in a fintech feed — the hardest possible pattern interrupt."
+  },
+  {
+    "slug": "ap-elephant",
+    "brand": "AlertPay",
+    "tag": "AlertPay",
+    "title": "Elephant Test",
+    "fmt": "Meta · 9:16",
+    "ar": "9:16",
+    "hook": "An elephant stands on the soundbox. You cannot scroll past the first frame."
+  },
+  {
+    "slug": "pm-suno-suno",
+    "brand": "Passbook Max",
+    "tag": "Passbook",
+    "title": "Suno Suno",
+    "fmt": "Meta · 9:16",
+    "ar": "9:16",
+    "hook": "A monkey with a megaphone in a crowded bazaar. Attention first, product second."
+  },
+  {
+    "slug": "ap-madam-cab",
+    "brand": "AlertPay",
+    "tag": "AlertPay",
+    "title": "Cab Se Utarte Hi",
+    "fmt": "Meta · 9:16 · Animation",
+    "ar": "9:16",
+    "hook": "Fully animated spot — character design, lipsync and UI composite in one pipeline."
+  },
+  {
+    "slug": "sp-news-reporter",
+    "brand": "ScorePro",
+    "tag": "ScorePro",
+    "title": "Street Reporter",
+    "fmt": "Meta · 9:16",
+    "ar": "9:16",
+    "hook": "Vox-pop energy. A reporter asks the one question nobody on the street can answer."
+  },
+  {
     "slug": "sp-bank-insider",
     "brand": "ScorePro",
     "tag": "ScorePro",
@@ -18,85 +90,31 @@
     "hook": "A named character, a hard rejection, and a score meter that explains it in one move."
   },
   {
-    "slug": "sp-loan-rejected",
-    "brand": "ScorePro",
-    "tag": "ScorePro",
-    "title": "Rejected Again",
+    "slug": "ma-mom-shouts",
+    "brand": "MyAutoPay",
+    "tag": "MyAutoPay",
+    "title": "Mom Finds Out",
     "fmt": "Meta · 9:16",
     "ar": "9:16",
-    "hook": "Opens on the rejection screen itself — no setup, no preamble, straight into the pain."
+    "hook": "A household argument about a subscription nobody remembers signing up for."
   },
   {
-    "slug": "sp-news-reporter",
-    "brand": "ScorePro",
-    "tag": "ScorePro",
-    "title": "Street Reporter",
-    "fmt": "Meta · 9:16",
+    "slug": "crafto-shopkeeper",
+    "brand": "Crafto",
+    "tag": "Crafto",
+    "title": "Shopkeeper",
+    "fmt": "Meta · 9:16 · PrimeTrace",
     "ar": "9:16",
-    "hook": "Vox-pop energy. A reporter asks the one question nobody on the street can answer."
+    "hook": "Daily status for a shop owner — the product demo carried entirely by one performance."
   },
   {
-    "slug": "sp-before-after",
-    "brand": "ScorePro",
-    "tag": "ScorePro",
-    "title": "Before vs After",
-    "fmt": "Meta · 9:16",
+    "slug": "crafto-students",
+    "brand": "Crafto",
+    "tag": "Crafto",
+    "title": "Two Students",
+    "fmt": "Meta · 9:16 · PrimeTrace",
     "ar": "9:16",
-    "hook": "Two numbers, one cut. The whole proposition delivered as a single visual beat."
-  },
-  {
-    "slug": "sp-split-750",
-    "brand": "ScorePro",
-    "tag": "ScorePro",
-    "title": "Split Screen · 750+",
-    "fmt": "Meta · 9:16",
-    "ar": "9:16",
-    "hook": "Same frame, two lives. Split-screen comparison scored to a hard, specific number."
-  },
-  {
-    "slug": "sp-spotlight",
-    "brand": "ScorePro",
-    "tag": "ScorePro",
-    "title": "Spotlight",
-    "fmt": "Meta · 9:16",
-    "ar": "9:16",
-    "hook": "A single hard light and a direct address — theatrical pattern interrupt in a finance feed."
-  },
-  {
-    "slug": "sp-score-badgaya",
-    "brand": "ScorePro",
-    "tag": "ScorePro",
-    "title": "Score Badh Gaya",
-    "fmt": "Meta · 9:16",
-    "ar": "9:16",
-    "hook": "Benefit-led and short. Approval badge, gauge animation, done in twenty-three seconds."
-  },
-  {
-    "slug": "sp-health-report",
-    "brand": "ScorePro",
-    "tag": "ScorePro",
-    "title": "Health Report · Telugu",
-    "fmt": "Meta · 9:16 · Telugu",
-    "ar": "9:16",
-    "hook": "A doctor's report reframed as a credit report — one master, localised across seven languages."
-  },
-  {
-    "slug": "ap-yamraj",
-    "brand": "AlertPay",
-    "tag": "AlertPay",
-    "title": "Yamraj vs Soundbox",
-    "fmt": "Meta · 9:16",
-    "ar": "9:16",
-    "hook": "Mythology meets merchant hardware. Absurd premise, character animation, clean product landing."
-  },
-  {
-    "slug": "ap-elephant",
-    "brand": "AlertPay",
-    "tag": "AlertPay",
-    "title": "Elephant Test",
-    "fmt": "Meta · 9:16",
-    "ar": "9:16",
-    "hook": "An elephant stands on the soundbox. You cannot scroll past the first frame."
+    "hook": "Peer-to-peer discovery: one friend shows another, which is how this app actually spreads."
   },
   {
     "slug": "ap-dabba",
@@ -126,33 +144,6 @@
     "hook": "Two rupees short and no way to prove it — the smallest possible stake, played straight."
   },
   {
-    "slug": "ap-madam-cab",
-    "brand": "AlertPay",
-    "tag": "AlertPay",
-    "title": "Cab Se Utarte Hi",
-    "fmt": "Meta · 9:16 · Animation",
-    "ar": "9:16",
-    "hook": "Fully animated spot — character design, lipsync and UI composite in one pipeline."
-  },
-  {
-    "slug": "ap-har-har",
-    "brand": "AlertPay",
-    "tag": "AlertPay",
-    "title": "Har Har Mahadev",
-    "fmt": "Meta · 9:16",
-    "ar": "9:16",
-    "hook": "The alert chant as a hook. Twenty-two seconds, one idea, no fat."
-  },
-  {
-    "slug": "ap-battery",
-    "brand": "AlertPay",
-    "tag": "AlertPay",
-    "title": "Soundbox Battery",
-    "fmt": "Meta · 9:16",
-    "ar": "9:16",
-    "hook": "Leads with the objection instead of the benefit, then dismantles it on screen."
-  },
-  {
     "slug": "kb-udhaar",
     "brand": "Khatabook",
     "tag": "Khatabook",
@@ -160,6 +151,123 @@
     "fmt": "Meta · 9:16",
     "ar": "9:16",
     "hook": "Chasing a customer for money owed — the single most felt problem in the category."
+  },
+  {
+    "slug": "sp-spotlight",
+    "brand": "ScorePro",
+    "tag": "ScorePro",
+    "title": "Spotlight",
+    "fmt": "Meta · 9:16",
+    "ar": "9:16",
+    "hook": "A single hard light and a direct address — theatrical pattern interrupt in a finance feed."
+  },
+  {
+    "slug": "sp-split-750",
+    "brand": "ScorePro",
+    "tag": "ScorePro",
+    "title": "Split Screen · 750+",
+    "fmt": "Meta · 9:16",
+    "ar": "9:16",
+    "hook": "Same frame, two lives. Split-screen comparison scored to a hard, specific number."
+  },
+  {
+    "slug": "sp-before-after",
+    "brand": "ScorePro",
+    "tag": "ScorePro",
+    "title": "Before vs After",
+    "fmt": "Meta · 9:16",
+    "ar": "9:16",
+    "hook": "Two numbers, one cut. The whole proposition delivered as a single visual beat."
+  },
+  {
+    "slug": "sp-loan-rejected",
+    "brand": "ScorePro",
+    "tag": "ScorePro",
+    "title": "Rejected Again",
+    "fmt": "Meta · 9:16",
+    "ar": "9:16",
+    "hook": "Opens on the rejection screen itself — no setup, no preamble, straight into the pain."
+  },
+  {
+    "slug": "sp-score-badgaya",
+    "brand": "ScorePro",
+    "tag": "ScorePro",
+    "title": "Score Badh Gaya",
+    "fmt": "Meta · 9:16",
+    "ar": "9:16",
+    "hook": "Benefit-led and short. Approval badge, gauge animation, done in twenty-three seconds."
+  },
+  {
+    "slug": "sp-health-report",
+    "brand": "ScorePro",
+    "tag": "ScorePro",
+    "title": "Health Report · Telugu",
+    "fmt": "Meta · 9:16 · Telugu",
+    "ar": "9:16",
+    "hook": "A doctor's report reframed as a credit report — one master, localised across seven languages."
+  },
+  {
+    "slug": "ma-delete-app",
+    "brand": "MyAutoPay",
+    "tag": "MyAutoPay",
+    "title": "Delete Kar Diya",
+    "fmt": "Meta · 9:16",
+    "ar": "9:16",
+    "hook": "You deleted the app — so why is the money still going out? Subscription horror, forty-five seconds."
+  },
+  {
+    "slug": "ma-799-tomorrow",
+    "brand": "MyAutoPay",
+    "tag": "MyAutoPay",
+    "title": "₹799 Tomorrow",
+    "fmt": "Meta · 9:16",
+    "ar": "9:16",
+    "hook": "A robot reads out what is about to leave your account. Dread, delivered on a schedule."
+  },
+  {
+    "slug": "ma-399-kat-gaye",
+    "brand": "MyAutoPay",
+    "tag": "MyAutoPay",
+    "title": "₹399 Again",
+    "fmt": "Meta · 9:16",
+    "ar": "9:16",
+    "hook": "Opens on the bank SMS itself — the exact artefact the viewer has been ignoring all month."
+  },
+  {
+    "slug": "ma-gym-ott",
+    "brand": "MyAutoPay",
+    "tag": "MyAutoPay",
+    "title": "Gym, OTT, Gold",
+    "fmt": "Meta · 9:16",
+    "ar": "9:16",
+    "hook": "Three UPI apps, three forgotten mandates, one screen that finally shows them together."
+  },
+  {
+    "slug": "crafto-gmorning",
+    "brand": "Crafto",
+    "tag": "Crafto",
+    "title": "Good Morning Status",
+    "fmt": "Meta · 9:16 · PrimeTrace",
+    "ar": "9:16",
+    "hook": "The single biggest use case on Indian WhatsApp, made in four taps."
+  },
+  {
+    "slug": "crafto-bhagwan",
+    "brand": "Crafto",
+    "tag": "Crafto",
+    "title": "Bhakti Status",
+    "fmt": "Meta · 9:16 · PrimeTrace",
+    "ar": "9:16",
+    "hook": "Devotional status cards — the highest-intent audience the app has."
+  },
+  {
+    "slug": "crafto-uiscreens",
+    "brand": "Crafto",
+    "tag": "Crafto",
+    "title": "Status in Seconds",
+    "fmt": "Meta · 9:16 · PrimeTrace",
+    "ar": "9:16",
+    "hook": "Pure UI-screen ad. No actor, no set — the interface has to do all the selling."
   },
   {
     "slug": "kb-roz-hisaab",
@@ -198,22 +306,22 @@
     "hook": "Celebrity-format POV with a full multi-bank UI composite and a trust-badge landing."
   },
   {
-    "slug": "pm-suno-suno",
-    "brand": "Passbook Max",
-    "tag": "Passbook",
-    "title": "Suno Suno",
+    "slug": "ap-har-har",
+    "brand": "AlertPay",
+    "tag": "AlertPay",
+    "title": "Har Har Mahadev",
     "fmt": "Meta · 9:16",
     "ar": "9:16",
-    "hook": "A monkey with a megaphone in a crowded bazaar. Attention first, product second."
+    "hook": "The alert chant as a hook. Twenty-two seconds, one idea, no fat."
   },
   {
-    "slug": "ma-delete-app",
-    "brand": "MyAutoPay",
-    "tag": "MyAutoPay",
-    "title": "Delete Kar Diya",
+    "slug": "ap-battery",
+    "brand": "AlertPay",
+    "tag": "AlertPay",
+    "title": "Soundbox Battery",
     "fmt": "Meta · 9:16",
     "ar": "9:16",
-    "hook": "You deleted the app — so why is the money still going out? Subscription horror, forty-five seconds."
+    "hook": "Leads with the objection instead of the benefit, then dismantles it on screen."
   },
   {
     "slug": "med-gallstones",
