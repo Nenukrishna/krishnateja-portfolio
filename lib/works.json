@@ -1,0 +1,135 @@
+[
+  {
+    "slug": "scorepro-news-debate",
+    "brand": "ScorePro",
+    "title": "News Debate",
+    "fmt": "Meta · 9:16",
+    "hook": "A primetime credit-score debate that hijacks the feed's news reflex."
+  },
+  {
+    "slug": "scorepro-pandit-sabha",
+    "brand": "ScorePro",
+    "title": "Pandit Sabha",
+    "fmt": "Meta · 9:16",
+    "hook": "Pattern-interrupt satire — a satsang that turns into a credit lesson."
+  },
+  {
+    "slug": "scorepro-interrogation",
+    "brand": "ScorePro",
+    "title": "Interrogation 823",
+    "fmt": "Meta · 9:16",
+    "hook": "Cold-open interrogation room. Dark, cinematic, impossible to scroll past."
+  },
+  {
+    "slug": "scorepro-bank-insider",
+    "brand": "ScorePro",
+    "title": "Bank Insider",
+    "fmt": "Meta · 9:16",
+    "hook": "What actually happens after you apply — told by the man across the desk."
+  },
+  {
+    "slug": "scorepro-ugc-560-780",
+    "brand": "ScorePro",
+    "title": "UGC · 560 → 780",
+    "fmt": "Meta · 9:16",
+    "hook": "Native creator testimonial built around a hard, specific number."
+  },
+  {
+    "slug": "scorepro-card-declined",
+    "brand": "ScorePro",
+    "title": "Card Declined",
+    "fmt": "Meta · 9:16",
+    "hook": "Four silent seconds of rejection before a single word is spoken."
+  },
+  {
+    "slug": "scorepro-news-reporter",
+    "brand": "ScorePro",
+    "title": "Street Reporter",
+    "fmt": "Meta · 9:16",
+    "hook": "Vox-pop energy — a reporter asking the one question nobody can answer."
+  },
+  {
+    "slug": "scorepro-podcast-expert",
+    "brand": "ScorePro",
+    "title": "Podcast Expert",
+    "fmt": "Meta · 9:16",
+    "hook": "Borrowed authority. The podcast frame makes the claim land."
+  },
+  {
+    "slug": "scorepro-before-after",
+    "brand": "ScorePro",
+    "title": "Before vs After",
+    "fmt": "Meta · 9:16",
+    "hook": "The oldest performance structure in the book, cut tight."
+  },
+  {
+    "slug": "scorepro-pattern-break",
+    "brand": "ScorePro",
+    "title": "Pattern Break",
+    "fmt": "Meta · 9:16",
+    "hook": "His credit score talks back. Character comedy as a retention device."
+  },
+  {
+    "slug": "scorepro-ugc-wrong-thing",
+    "brand": "ScorePro",
+    "title": "UGC · Wrong Thing",
+    "fmt": "Meta · 9:16",
+    "hook": "Confession hook — 'I was doing the wrong thing the whole time.'"
+  },
+  {
+    "slug": "scorepro-score-improved",
+    "brand": "ScorePro",
+    "title": "Score Improved",
+    "fmt": "Meta · 9:16",
+    "hook": "Proof-led benefit ad, resolved on a live score gauge."
+  },
+  {
+    "slug": "alertpay-auto-driver",
+    "brand": "AlertPay",
+    "title": "Auto Driver",
+    "fmt": "Meta · 9:16",
+    "hook": "A fare, a scan, and a voice alert that lands before he drives off."
+  },
+  {
+    "slug": "alertpay-pani-puri",
+    "brand": "AlertPay",
+    "title": "Pani Puri Stall",
+    "fmt": "Meta · 9:16",
+    "hook": "Street-food rush — payment confirmation without a soundbox."
+  },
+  {
+    "slug": "alertpay-dabba",
+    "brand": "AlertPay",
+    "title": "Ye Dabba",
+    "fmt": "Meta · 9:16",
+    "hook": "The soundbox everyone hates, weaponised as the hook."
+  },
+  {
+    "slug": "myautopay-robot",
+    "brand": "MyAutoPay",
+    "title": "Robot",
+    "fmt": "Meta · 9:16",
+    "hook": "An absurd visual device to explain silent recurring debits."
+  },
+  {
+    "slug": "myautopay-chai-friend",
+    "brand": "MyAutoPay",
+    "title": "Chai Friend",
+    "fmt": "Meta · 9:16",
+    "hook": "Two friends, one chai, and a subscription nobody remembers starting."
+  },
+  {
+    "slug": "myautopay-asli-kharcha",
+    "brand": "MyAutoPay",
+    "title": "Asli Kharcha",
+    "fmt": "Meta · 9:16",
+    "hook": "Where the money actually goes — a running tally the viewer can feel."
+  },
+  {
+    "slug": "khatabook-udhaar",
+    "brand": "Khatabook",
+    "title": "Udhaar Pending",
+    "fmt": "Meta · 9:16",
+    "hook": "A pile of paper slips as the whole problem statement, no words needed."
+  }
+]
