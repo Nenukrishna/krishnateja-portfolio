@@ -15,7 +15,7 @@ const mono = JetBrains_Mono({
   display: 'swap',
 });
 
-const SITE = 'https://krishnateja.vercel.app';
+const SITE = 'https://krishnateja-portfolio.vercel.app';
 
 export const metadata = {
   metadataBase: new URL(SITE),
