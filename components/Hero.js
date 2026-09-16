@@ -87,12 +87,15 @@ export default function Hero() {
     ['pointerdown', 'touchstart', 'keydown', 'scroll'].forEach((e) =>
       window.addEventListener(e, kick, opts)
     );
+    // Browsers pause media in a backgrounded tab — pick it back up on return.
+    document.addEventListener('visibilitychange', kick);
 
     return () => {
       v.removeEventListener('loadeddata', kick);
       ['pointerdown', 'touchstart', 'keydown', 'scroll'].forEach((e) =>
         window.removeEventListener(e, kick, opts)
       );
+      document.removeEventListener('visibilitychange', kick);
     };
   }, [paused]);
 
