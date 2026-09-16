@@ -2,6 +2,7 @@ import Nav from '@/components/Nav';
 import Hero from '@/components/Hero';
 import Work from '@/components/Work';
 import Reveal from '@/components/Reveal';
+import { asset } from '@/lib/base';
 
 const MARQUEE = [
   'ScorePro',
@@ -10,6 +11,9 @@ const MARQUEE = [
   'Khatabook',
   'Passbook Pro',
   'Passbook Max',
+  'Crafto',
+  'Medicover Hospitals',
+  'Movement Fitness',
   'Meta Ads',
   'Google Ads',
   'Hindi',
@@ -56,25 +60,25 @@ const CAPS = [
 
 const XP = [
   {
-    when: '2025 — Present',
+    when: 'Jun 2026 — Present',
     role: 'Performance Video Editor & Ad Creative Strategist',
     org: 'Khatabook · Bengaluru',
     now: true,
     points: [
       'Growth creative for ScorePro, AlertPay, MyAutoPay and the Khatabook app',
-      'Shipped 127 delivered 9:16 ad masters across six fintech products',
+      'Shipped 120+ delivered 9:16 ad masters across six fintech products',
       'Wrote and cut hook-led scripts aimed at install and retention targets',
       'Built an AI-assisted production pipeline — generation, lipsync, VO, QC',
       'Localised campaigns into seven Indian languages from a single master',
     ],
   },
   {
-    when: 'Jun 2025',
+    when: 'Jun 2025 — May 2026',
     role: 'Performance Video Editor & Creative Strategist',
     org: 'PrimeTrace Technologies',
     points: [
       'High-converting video ads for Meta and Google campaigns',
-      'App growth creative for Crafto — user acquisition and engagement',
+      'App growth creative for Crafto — AI-generated ads for user acquisition and engagement',
       'Developed hook-based scripts to improve retention',
       'Produced AI-powered ad creatives using ChatGPT, Gemini and Vertex',
     ],
@@ -241,6 +245,13 @@ export default function Page() {
           <div className="wrap about">
             <Reveal>
               <div>
+                <div className="about-photo">
+                  <img
+                    src={asset('/media/krishna.jpg')}
+                    alt="Krishna Teja T, performance video editor, Bengaluru"
+                    loading="lazy"
+                  />
+                </div>
                 <span className="kicker">About</span>
                 <h2 className="title" style={{ marginBottom: 28 }}>
                   Hook first.
@@ -255,7 +266,10 @@ export default function Page() {
                 <p>
                   Right now I build growth creative at <b>Khatabook</b> for ScorePro, AlertPay,
                   MyAutoPay and the core app — writing hooks, generating and directing footage
-                  with AI, then cutting, scoring, grading and mixing the master myself.
+                  with AI, then cutting, scoring, grading and mixing the master myself. Before
+                  that I ran app-growth creative for <b>Crafto</b> at PrimeTrace, and shot and cut
+                  branded video for <b>Medicover Hospitals</b>, <b>DNA Skin Clinic</b> and
+                  <b>Movement Fitness</b>.
                 </p>
                 <p>
                   I care about the things that actually move retention: where the first cut lands,

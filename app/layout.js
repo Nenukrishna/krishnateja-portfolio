@@ -21,7 +21,7 @@ export const metadata = {
   metadataBase: new URL(SITE),
   title: 'Krishna Teja — Performance Video Editor & Ad Creative Strategist',
   description:
-    'Performance video editor in Bengaluru. 127 delivered ad masters across 6 fintech products in 7 Indian languages — hook-first creatives built for Meta and Google.',
+    'Performance video editor in Bengaluru. Hook-first ad creatives for Meta and Google across six fintech products and seven Indian languages, plus brand films and short-form.',
   keywords: [
     'performance video editor',
     'ad creative strategist',
@@ -34,7 +34,7 @@ export const metadata = {
   openGraph: {
     title: 'Krishna Teja — Performance Video Editor',
     description:
-      '127 delivered ad masters · 6 fintech products · 7 languages. Hook-first video creative for Meta & Google.',
+      'Hook-first video creative for Meta & Google. Six fintech products, seven Indian languages, plus brand and short-form work.',
     url: SITE,
     siteName: 'Krishna Teja',
     images: [{ url: '/media/showreel-poster.jpg', width: 720, height: 1280 }],
@@ -43,7 +43,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Krishna Teja — Performance Video Editor',
-    description: '127 delivered ad masters · 6 fintech products · 7 languages.',
+    description: 'Hook-first video creative for Meta & Google — fintech ads, brand films and short-form.',
     images: ['/media/showreel-poster.jpg'],
   },
   robots: { index: true, follow: true },

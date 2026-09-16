@@ -1,135 +1,268 @@
 [
   {
-    "slug": "scorepro-news-debate",
+    "slug": "sp-bank-insider",
     "brand": "ScorePro",
-    "title": "News Debate",
-    "fmt": "Meta · 9:16",
-    "hook": "A primetime credit-score debate that hijacks the feed's news reflex."
-  },
-  {
-    "slug": "scorepro-pandit-sabha",
-    "brand": "ScorePro",
-    "title": "Pandit Sabha",
-    "fmt": "Meta · 9:16",
-    "hook": "Pattern-interrupt satire — a satsang that turns into a credit lesson."
-  },
-  {
-    "slug": "scorepro-interrogation",
-    "brand": "ScorePro",
-    "title": "Interrogation 823",
-    "fmt": "Meta · 9:16",
-    "hook": "Cold-open interrogation room. Dark, cinematic, impossible to scroll past."
-  },
-  {
-    "slug": "scorepro-bank-insider",
-    "brand": "ScorePro",
+    "tag": "ScorePro",
     "title": "Bank Insider",
     "fmt": "Meta · 9:16",
-    "hook": "What actually happens after you apply — told by the man across the desk."
+    "ar": "9:16",
+    "hook": "The man across the desk finally says what actually happens to your loan application."
   },
   {
-    "slug": "scorepro-ugc-560-780",
+    "slug": "sp-rajesh-reject",
     "brand": "ScorePro",
-    "title": "UGC · 560 → 780",
+    "tag": "ScorePro",
+    "title": "Rajesh Got Rejected",
     "fmt": "Meta · 9:16",
-    "hook": "Native creator testimonial built around a hard, specific number."
+    "ar": "9:16",
+    "hook": "A named character, a hard rejection, and a score meter that explains it in one move."
   },
   {
-    "slug": "scorepro-card-declined",
+    "slug": "sp-loan-rejected",
     "brand": "ScorePro",
-    "title": "Card Declined",
+    "tag": "ScorePro",
+    "title": "Rejected Again",
     "fmt": "Meta · 9:16",
-    "hook": "Four silent seconds of rejection before a single word is spoken."
+    "ar": "9:16",
+    "hook": "Opens on the rejection screen itself — no setup, no preamble, straight into the pain."
   },
   {
-    "slug": "scorepro-news-reporter",
+    "slug": "sp-news-reporter",
     "brand": "ScorePro",
+    "tag": "ScorePro",
     "title": "Street Reporter",
     "fmt": "Meta · 9:16",
-    "hook": "Vox-pop energy — a reporter asking the one question nobody can answer."
+    "ar": "9:16",
+    "hook": "Vox-pop energy. A reporter asks the one question nobody on the street can answer."
   },
   {
-    "slug": "scorepro-podcast-expert",
+    "slug": "sp-before-after",
     "brand": "ScorePro",
-    "title": "Podcast Expert",
-    "fmt": "Meta · 9:16",
-    "hook": "Borrowed authority. The podcast frame makes the claim land."
-  },
-  {
-    "slug": "scorepro-before-after",
-    "brand": "ScorePro",
+    "tag": "ScorePro",
     "title": "Before vs After",
     "fmt": "Meta · 9:16",
-    "hook": "The oldest performance structure in the book, cut tight."
+    "ar": "9:16",
+    "hook": "Two numbers, one cut. The whole proposition delivered as a single visual beat."
   },
   {
-    "slug": "scorepro-pattern-break",
+    "slug": "sp-split-750",
     "brand": "ScorePro",
-    "title": "Pattern Break",
+    "tag": "ScorePro",
+    "title": "Split Screen · 750+",
     "fmt": "Meta · 9:16",
-    "hook": "His credit score talks back. Character comedy as a retention device."
+    "ar": "9:16",
+    "hook": "Same frame, two lives. Split-screen comparison scored to a hard, specific number."
   },
   {
-    "slug": "scorepro-ugc-wrong-thing",
+    "slug": "sp-spotlight",
     "brand": "ScorePro",
-    "title": "UGC · Wrong Thing",
+    "tag": "ScorePro",
+    "title": "Spotlight",
     "fmt": "Meta · 9:16",
-    "hook": "Confession hook — 'I was doing the wrong thing the whole time.'"
+    "ar": "9:16",
+    "hook": "A single hard light and a direct address — theatrical pattern interrupt in a finance feed."
   },
   {
-    "slug": "scorepro-score-improved",
+    "slug": "sp-score-badgaya",
     "brand": "ScorePro",
-    "title": "Score Improved",
+    "tag": "ScorePro",
+    "title": "Score Badh Gaya",
     "fmt": "Meta · 9:16",
-    "hook": "Proof-led benefit ad, resolved on a live score gauge."
+    "ar": "9:16",
+    "hook": "Benefit-led and short. Approval badge, gauge animation, done in twenty-three seconds."
   },
   {
-    "slug": "alertpay-auto-driver",
-    "brand": "AlertPay",
-    "title": "Auto Driver",
-    "fmt": "Meta · 9:16",
-    "hook": "A fare, a scan, and a voice alert that lands before he drives off."
+    "slug": "sp-health-report",
+    "brand": "ScorePro",
+    "tag": "ScorePro",
+    "title": "Health Report · Telugu",
+    "fmt": "Meta · 9:16 · Telugu",
+    "ar": "9:16",
+    "hook": "A doctor's report reframed as a credit report — one master, localised across seven languages."
   },
   {
-    "slug": "alertpay-pani-puri",
+    "slug": "ap-yamraj",
     "brand": "AlertPay",
-    "title": "Pani Puri Stall",
+    "tag": "AlertPay",
+    "title": "Yamraj vs Soundbox",
     "fmt": "Meta · 9:16",
-    "hook": "Street-food rush — payment confirmation without a soundbox."
+    "ar": "9:16",
+    "hook": "Mythology meets merchant hardware. Absurd premise, character animation, clean product landing."
   },
   {
-    "slug": "alertpay-dabba",
+    "slug": "ap-elephant",
     "brand": "AlertPay",
+    "tag": "AlertPay",
+    "title": "Elephant Test",
+    "fmt": "Meta · 9:16",
+    "ar": "9:16",
+    "hook": "An elephant stands on the soundbox. You cannot scroll past the first frame."
+  },
+  {
+    "slug": "ap-dabba",
+    "brand": "AlertPay",
+    "tag": "AlertPay",
     "title": "Ye Dabba",
     "fmt": "Meta · 9:16",
-    "hook": "The soundbox everyone hates, weaponised as the hook."
+    "ar": "9:16",
+    "hook": "The shopkeeper takes his dead soundbox to a doctor. Sketch logic, product payoff."
   },
   {
-    "slug": "myautopay-robot",
-    "brand": "MyAutoPay",
-    "title": "Robot",
+    "slug": "ap-pani-puri",
+    "brand": "AlertPay",
+    "tag": "AlertPay",
+    "title": "Pani Puri Stall",
     "fmt": "Meta · 9:16",
-    "hook": "An absurd visual device to explain silent recurring debits."
+    "ar": "9:16",
+    "hook": "Real street-stall context, real payment anxiety, resolved by the alert itself."
   },
   {
-    "slug": "myautopay-chai-friend",
-    "brand": "MyAutoPay",
-    "title": "Chai Friend",
+    "slug": "ap-auto-driver",
+    "brand": "AlertPay",
+    "tag": "AlertPay",
+    "title": "Auto Driver",
     "fmt": "Meta · 9:16",
-    "hook": "Two friends, one chai, and a subscription nobody remembers starting."
+    "ar": "9:16",
+    "hook": "Two rupees short and no way to prove it — the smallest possible stake, played straight."
   },
   {
-    "slug": "myautopay-asli-kharcha",
-    "brand": "MyAutoPay",
-    "title": "Asli Kharcha",
+    "slug": "ap-madam-cab",
+    "brand": "AlertPay",
+    "tag": "AlertPay",
+    "title": "Cab Se Utarte Hi",
+    "fmt": "Meta · 9:16 · Animation",
+    "ar": "9:16",
+    "hook": "Fully animated spot — character design, lipsync and UI composite in one pipeline."
+  },
+  {
+    "slug": "ap-har-har",
+    "brand": "AlertPay",
+    "tag": "AlertPay",
+    "title": "Har Har Mahadev",
     "fmt": "Meta · 9:16",
-    "hook": "Where the money actually goes — a running tally the viewer can feel."
+    "ar": "9:16",
+    "hook": "The alert chant as a hook. Twenty-two seconds, one idea, no fat."
   },
   {
-    "slug": "khatabook-udhaar",
+    "slug": "ap-battery",
+    "brand": "AlertPay",
+    "tag": "AlertPay",
+    "title": "Soundbox Battery",
+    "fmt": "Meta · 9:16",
+    "ar": "9:16",
+    "hook": "Leads with the objection instead of the benefit, then dismantles it on screen."
+  },
+  {
+    "slug": "kb-udhaar",
     "brand": "Khatabook",
-    "title": "Udhaar Pending",
+    "tag": "Khatabook",
+    "title": "Udhaar Wapas",
     "fmt": "Meta · 9:16",
-    "hook": "A pile of paper slips as the whole problem statement, no words needed."
+    "ar": "9:16",
+    "hook": "Chasing a customer for money owed — the single most felt problem in the category."
+  },
+  {
+    "slug": "kb-roz-hisaab",
+    "brand": "Khatabook",
+    "tag": "Khatabook",
+    "title": "Roz Ka Hisaab",
+    "fmt": "Meta · 9:16 · Match cut",
+    "ar": "9:16",
+    "hook": "Paper register to digital ledger in one match cut — the edit carries the whole argument."
+  },
+  {
+    "slug": "kb-digital-ledger",
+    "brand": "Khatabook",
+    "tag": "Khatabook",
+    "title": "Sharma Ji's Ledger",
+    "fmt": "Meta · 9:16 · Match cut",
+    "ar": "9:16",
+    "hook": "Thirteen seconds. Two worlds. One transition doing all the work."
+  },
+  {
+    "slug": "kb-hisab",
+    "brand": "Khatabook",
+    "tag": "Khatabook",
+    "title": "Mahine Ka Hisaab",
+    "fmt": "Meta · 9:16",
+    "ar": "9:16",
+    "hook": "Month-end reckoning at the counter, cut to the rhythm of someone losing patience."
+  },
+  {
+    "slug": "pp-one-app",
+    "brand": "Passbook Pro",
+    "tag": "Passbook",
+    "title": "All Accounts, One App",
+    "fmt": "Meta · 9:16",
+    "ar": "9:16",
+    "hook": "Celebrity-format POV with a full multi-bank UI composite and a trust-badge landing."
+  },
+  {
+    "slug": "pm-suno-suno",
+    "brand": "Passbook Max",
+    "tag": "Passbook",
+    "title": "Suno Suno",
+    "fmt": "Meta · 9:16",
+    "ar": "9:16",
+    "hook": "A monkey with a megaphone in a crowded bazaar. Attention first, product second."
+  },
+  {
+    "slug": "ma-delete-app",
+    "brand": "MyAutoPay",
+    "tag": "MyAutoPay",
+    "title": "Delete Kar Diya",
+    "fmt": "Meta · 9:16",
+    "ar": "9:16",
+    "hook": "You deleted the app — so why is the money still going out? Subscription horror, forty-five seconds."
+  },
+  {
+    "slug": "med-gallstones",
+    "brand": "Medicover Hospitals",
+    "tag": "Beyond ads",
+    "title": "Did You Know · Gallstones",
+    "fmt": "Instagram · 9:16",
+    "ar": "9:16",
+    "hook": "Medical explainer built entirely in motion graphics, handed off to a consultant bite.",
+    "role": "Motion graphics · Edit · Subtitles"
+  },
+  {
+    "slug": "med-recovery",
+    "brand": "Medicover Hospitals",
+    "tag": "Beyond ads",
+    "title": "Patient Recovery Journey",
+    "fmt": "Instagram · 9:16",
+    "ar": "9:16",
+    "hook": "Long-form doctor bite cut for retention — subtitles, B-roll inserts, clean dialogue mix.",
+    "role": "Edit · Subtitles · Sound"
+  },
+  {
+    "slug": "mf-brand-film",
+    "brand": "Movement Fitness",
+    "tag": "Beyond ads",
+    "title": "Gym Brand Film",
+    "fmt": "YouTube · 16:9",
+    "ar": "16:9",
+    "hook": "Shot and cut on location — a cinematic brand film, graded and scored end to end.",
+    "role": "Shoot · Edit · Grade · Sound"
+  },
+  {
+    "slug": "mf-promo-square",
+    "brand": "Movement Fitness",
+    "tag": "Beyond ads",
+    "title": "Gym Promo · 1:1",
+    "fmt": "Social · 1:1",
+    "ar": "1:1",
+    "hook": "The same shoot recut square for social — different rhythm, same energy.",
+    "role": "Shoot · Edit · Grade"
+  },
+  {
+    "slug": "kushi-motion-poster",
+    "brand": "Kushi Music",
+    "tag": "Beyond ads",
+    "title": "Motion Poster",
+    "fmt": "YouTube · 16:9",
+    "ar": "16:9",
+    "hook": "A still poster taken apart into layers and put back together as motion.",
+    "role": "Motion design · Composite"
   }
 ]

@@ -6,7 +6,9 @@ import Reveal from './Reveal';
 import works from '@/lib/works.json';
 import { asset } from '@/lib/base';
 
-const BRANDS = ['All', ...Array.from(new Set(works.map((w) => w.brand)))];
+// Filter on `tag`, not `brand`: the non-fintech pieces each have their own
+// client name but belong together under one chip.
+const TAGS = ['All', ...Array.from(new Set(works.map((w) => w.tag)))];
 
 function Card({ work, onOpen }) {
   const vid = useRef(null);
@@ -96,7 +98,7 @@ function Lightbox({ list, index, setIndex, onClose }) {
       </button>
 
       <div className="lb-box" onClick={(e) => e.stopPropagation()}>
-        <div className="lb-video">
+        <div className={`lb-video ar-${(work.ar || '9:16').replace(':', '-')}`}>
           <video
             key={work.slug}
             src={asset(`/media/ads/${work.slug}.mp4`)}
@@ -123,7 +125,7 @@ function Lightbox({ list, index, setIndex, onClose }) {
             </div>
             <div className="lb-fact">
               <dt>Role</dt>
-              <dd>Script · Edit · Sound · Grade</dd>
+              <dd>{work.role || 'Script · Edit · Sound · Grade'}</dd>
             </div>
           </dl>
 
@@ -148,7 +150,7 @@ export default function Work() {
   const [index, setIndex] = useState(0);
 
   const list = useMemo(
-    () => (filter === 'All' ? works : works.filter((w) => w.brand === filter)),
+    () => (filter === 'All' ? works : works.filter((w) => w.tag === filter)),
     [filter]
   );
 
@@ -171,15 +173,15 @@ export default function Work() {
           </Reveal>
           <Reveal delay={80}>
             <p className="lede">
-              Hook-first films built for the feed. Every one is a full master — concept, script,
-              AI-assisted production, edit, sound design and grade.
+              Hook-first films built for the feed, plus the brand and long-form work that came
+              before. Every one is a finished master — concept, script, edit, sound and grade.
             </p>
           </Reveal>
         </div>
 
         <Reveal delay={60}>
           <div className="filters" style={{ marginBottom: 28 }}>
-            {BRANDS.map((b) => (
+            {TAGS.map((b) => (
               <button
                 key={b}
                 className={`chip ${filter === b ? 'on' : ''}`}
@@ -188,7 +190,7 @@ export default function Work() {
                 {b}
                 {b !== 'All' && (
                   <span style={{ opacity: 0.55, marginLeft: 6 }}>
-                    {works.filter((w) => w.brand === b).length}
+                    {works.filter((w) => w.tag === b).length}
                   </span>
                 )}
               </button>
