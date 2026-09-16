@@ -827,10 +827,12 @@ h2.title {
   border: 1px solid var(--line-strong);
   box-shadow: 0 50px 110px -30px rgba(0, 0, 0, 0.95);
 }
-.lb-video video {
+.lb-video video,
+.lb-video iframe {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border: 0;
 }
 /* Not every piece is 9:16 -- the gym films and the motion poster are wider. */
 .lb-video.ar-16-9 {
@@ -846,6 +848,10 @@ h2.title {
 .lb-video.ar-16-9 video,
 .lb-video.ar-1-1 video {
   object-fit: contain;
+}
+/* A YouTube embed keeps its own chrome, so give it the plain dark box. */
+.lb-video:has(iframe) {
+  background: #000;
 }
 
 .lb-meta {

@@ -16,7 +16,7 @@ function Card({ work, onOpen }) {
 
   const enter = () => {
     const v = vid.current;
-    if (!v) return;
+    if (!v || work.yt) return;
     v.currentTime = 0;
     const p = v.play();
     if (p) p.then(() => setPlaying(true)).catch(() => {});
@@ -46,7 +46,9 @@ function Card({ work, onOpen }) {
       aria-label={`Play ${work.brand} — ${work.title}`}
     >
       <img src={asset(`/media/posters/${work.slug}.jpg`)} alt="" loading="lazy" decoding="async" />
-      <video ref={vid} src={asset(`/media/previews/${work.slug}.mp4`)} muted loop playsInline preload="none" />
+      {!work.yt && (
+        <video ref={vid} src={asset(`/media/previews/${work.slug}.mp4`)} muted loop playsInline preload="none" />
+      )}
       <div className="card-shade" />
       <div className="card-play">
         <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
@@ -99,14 +101,25 @@ function Lightbox({ list, index, setIndex, onClose }) {
 
       <div className="lb-box" onClick={(e) => e.stopPropagation()}>
         <div className={`lb-video ar-${(work.ar || '9:16').replace(':', '-')}`}>
-          <video
-            key={work.slug}
-            src={asset(`/media/ads/${work.slug}.mp4`)}
-            poster={asset(`/media/posters/${work.slug}.jpg`)}
-            controls
-            autoPlay
-            playsInline
-          />
+          {work.yt ? (
+            <iframe
+              key={work.slug}
+              src={`https://www.youtube-nocookie.com/embed/${work.yt}?autoplay=1&rel=0&modestbranding=1`}
+              title={work.title}
+              allow="accelerometer; autoplay; encrypted-media; picture-in-picture"
+              allowFullScreen
+              referrerPolicy="strict-origin-when-cross-origin"
+            />
+          ) : (
+            <video
+              key={work.slug}
+              src={asset(`/media/ads/${work.slug}.mp4`)}
+              poster={asset(`/media/posters/${work.slug}.jpg`)}
+              controls
+              autoPlay
+              playsInline
+            />
+          )}
         </div>
 
         <div className="lb-meta">

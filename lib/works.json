@@ -264,5 +264,49 @@
     "ar": "16:9",
     "hook": "A still poster taken apart into layers and put back together as motion.",
     "role": "Motion design · Composite"
+  },
+  {
+    "slug": "film-owner-gari-ammayi",
+    "brand": "Mahika Entertainments",
+    "tag": "Beyond ads",
+    "title": "Owner Gari Ammayi",
+    "fmt": "Short film · YouTube",
+    "ar": "16:9",
+    "yt": "vtgJRgGkc4I",
+    "role": "Edit · Colour grade",
+    "hook": "A Telugu short film cut long-form — performance over pace, for a watch time nobody scrolls past."
+  },
+  {
+    "slug": "film-roach-trailer",
+    "brand": "Made in Local",
+    "tag": "Beyond ads",
+    "title": "#Roach — Trailer",
+    "fmt": "Web series · YouTube",
+    "ar": "16:9",
+    "yt": "nuHd5GZoo2g",
+    "role": "Colour grading",
+    "hook": "Trailer grade: night interiors held together, skin kept warm against a cold ambient."
+  },
+  {
+    "slug": "music-chittooru-sathyabhama",
+    "brand": "Kushi Music",
+    "tag": "Beyond ads",
+    "title": "Chittooru Sathyabhama",
+    "fmt": "Music video · YouTube",
+    "ar": "16:9",
+    "yt": "Ubi8ygQS1MQ",
+    "role": "Edit · Colour grade",
+    "hook": "Full folk song — festival colour, crowd choreography, cut to the track rather than the shot list."
+  },
+  {
+    "slug": "music-distribution-song",
+    "brand": "Made in Local",
+    "tag": "Beyond ads",
+    "title": "Distribution Song",
+    "fmt": "Music video · YouTube",
+    "ar": "16:9",
+    "yt": "Xk4jgavxKGQ",
+    "role": "Edit · Colour grade",
+    "hook": "Independent music video, shot and finished on a local crew budget."
   }
 ]
