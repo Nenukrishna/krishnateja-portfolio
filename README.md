@@ -12,12 +12,13 @@ npm run dev      # http://localhost:3111
 ## Build
 
 ```
-npm run build    # static site written to ./out
+npm run build    # prerenders every route (Vercel serves .next directly)
 ```
 
 ## Deploy
 
-Vercel picks this up with zero config (`output: 'export'`).
+Vercel picks this up with zero config — it auto-detects Next.js.
+For a non-Vercel static host, add `output: 'export'` to next.config.mjs and deploy `out/`.
 
 ```
 npx vercel        # preview
