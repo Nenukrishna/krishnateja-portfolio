@@ -63,6 +63,24 @@
     "hook": "Fully animated spot — character design, lipsync and UI composite in one pipeline."
   },
   {
+    "slug": "crafto-tv20",
+    "brand": "Crafto",
+    "tag": "Crafto",
+    "title": "TV20 Astrology Desk",
+    "fmt": "Meta · 9:16 · Telugu",
+    "ar": "9:16",
+    "hook": "A whole news studio built to sell a status app. Borrowed authority, played completely straight."
+  },
+  {
+    "slug": "crafto-podcast",
+    "brand": "Crafto",
+    "tag": "Crafto",
+    "title": "The Podcast Take",
+    "fmt": "Meta · 9:16 · Telugu",
+    "ar": "9:16",
+    "hook": "Podcast framing on a mic and a single face — the cheapest credibility in the feed, and the most effective."
+  },
+  {
     "slug": "sp-news-reporter",
     "brand": "ScorePro",
     "tag": "ScorePro",
@@ -99,22 +117,22 @@
     "hook": "A household argument about a subscription nobody remembers signing up for."
   },
   {
-    "slug": "crafto-shopkeeper",
+    "slug": "crafto-pattern-break",
     "brand": "Crafto",
     "tag": "Crafto",
-    "title": "Shopkeeper",
-    "fmt": "Meta · 9:16 · PrimeTrace",
+    "title": "Pattern Break",
+    "fmt": "Meta · 9:16 · Telugu",
     "ar": "9:16",
-    "hook": "Daily status for a shop owner — the product demo carried entirely by one performance."
+    "hook": "Opens on a pratfall, lands on a logo. Nothing in the first two seconds says advertisement."
   },
   {
-    "slug": "crafto-students",
+    "slug": "crafto-friends",
     "brand": "Crafto",
     "tag": "Crafto",
-    "title": "Two Students",
-    "fmt": "Meta · 9:16 · PrimeTrace",
+    "title": "Show Your Friends",
+    "fmt": "Meta · 9:16 · Telugu",
     "ar": "9:16",
-    "hook": "Peer-to-peer discovery: one friend shows another, which is how this app actually spreads."
+    "hook": "Three friends on a sofa. The app spreads exactly the way the ad shows it spreading."
   },
   {
     "slug": "ap-dabba",
@@ -151,6 +169,24 @@
     "fmt": "Meta · 9:16",
     "ar": "9:16",
     "hook": "Chasing a customer for money owed — the single most felt problem in the category."
+  },
+  {
+    "slug": "crafto-festival",
+    "brand": "Crafto",
+    "tag": "Crafto",
+    "title": "Festival Status",
+    "fmt": "Meta · 9:16 · Telugu",
+    "ar": "9:16",
+    "hook": "Presenter, greeting cards, app in hand. The category's biggest moment, covered end to end."
+  },
+  {
+    "slug": "crafto-photo-edit",
+    "brand": "Crafto",
+    "tag": "Crafto",
+    "title": "Put Your Face On It",
+    "fmt": "Meta · 9:16 · Telugu",
+    "ar": "9:16",
+    "hook": "The one feature that closes it — your own photo, inside the status, in four taps."
   },
   {
     "slug": "sp-spotlight",
@@ -243,33 +279,6 @@
     "hook": "Three UPI apps, three forgotten mandates, one screen that finally shows them together."
   },
   {
-    "slug": "crafto-gmorning",
-    "brand": "Crafto",
-    "tag": "Crafto",
-    "title": "Good Morning Status",
-    "fmt": "Meta · 9:16 · PrimeTrace",
-    "ar": "9:16",
-    "hook": "The single biggest use case on Indian WhatsApp, made in four taps."
-  },
-  {
-    "slug": "crafto-bhagwan",
-    "brand": "Crafto",
-    "tag": "Crafto",
-    "title": "Bhakti Status",
-    "fmt": "Meta · 9:16 · PrimeTrace",
-    "ar": "9:16",
-    "hook": "Devotional status cards — the highest-intent audience the app has."
-  },
-  {
-    "slug": "crafto-uiscreens",
-    "brand": "Crafto",
-    "tag": "Crafto",
-    "title": "Status in Seconds",
-    "fmt": "Meta · 9:16 · PrimeTrace",
-    "ar": "9:16",
-    "hook": "Pure UI-screen ad. No actor, no set — the interface has to do all the selling."
-  },
-  {
     "slug": "kb-roz-hisaab",
     "brand": "Khatabook",
     "tag": "Khatabook",
@@ -324,6 +333,26 @@
     "hook": "Leads with the objection instead of the benefit, then dismantles it on screen."
   },
   {
+    "slug": "dna-pcod",
+    "brand": "DNA Skin Clinic",
+    "tag": "Beyond ads",
+    "title": "PCOD · Before & After",
+    "fmt": "Social · 9:16",
+    "ar": "9:16",
+    "role": "Edit · Motion graphics",
+    "hook": "Clinical before/after built as a split-screen motion sequence, with the claim on screen the whole way."
+  },
+  {
+    "slug": "dna-screen-time",
+    "brand": "DNA Skin Clinic",
+    "tag": "Beyond ads",
+    "title": "Screen Time & Skin",
+    "fmt": "Social · 9:16",
+    "ar": "9:16",
+    "role": "Edit · Motion graphics · Subtitles",
+    "hook": "A dermatologist explainer cut with character animation so a long medical answer still holds."
+  },
+  {
     "slug": "med-gallstones",
     "brand": "Medicover Hospitals",
     "tag": "Beyond ads",
@@ -342,6 +371,56 @@
     "ar": "9:16",
     "hook": "Long-form doctor bite cut for retention — subtitles, B-roll inserts, clean dialogue mix.",
     "role": "Edit · Subtitles · Sound"
+  },
+  {
+    "slug": "ksr-datavizon",
+    "brand": "KSR DataVizon",
+    "tag": "Beyond ads",
+    "title": "Before & After",
+    "fmt": "Social · 9:16",
+    "ar": "9:16",
+    "role": "Edit · Motion graphics",
+    "hook": "Course ad structured entirely as a before/after — the format doing the persuading."
+  },
+  {
+    "slug": "awareness-loneliness",
+    "brand": "Explainer",
+    "tag": "Beyond ads",
+    "title": "Loneliness · Explainer",
+    "fmt": "Social · 9:16",
+    "ar": "9:16",
+    "role": "Edit · Motion graphics",
+    "hook": "Seventy seconds of talking head held together by cited data cards — Statista, BBC — cut in as evidence."
+  },
+  {
+    "slug": "mudgar-origins",
+    "brand": "Fitness",
+    "tag": "Beyond ads",
+    "title": "Mudgar · Indian Origins",
+    "fmt": "Social · 9:16",
+    "ar": "9:16",
+    "role": "Shoot · Edit · Grade",
+    "hook": "Training film on a red cyc — kinetic supers timed to the swing of the club."
+  },
+  {
+    "slug": "merlion-honey",
+    "brand": "Merlion Naturals",
+    "tag": "Beyond ads",
+    "title": "Product Film",
+    "fmt": "YouTube · 16:9",
+    "ar": "16:9",
+    "role": "Edit · Grade",
+    "hook": "Macro pours and slow reveals. No dialogue, no supers, the product doing all of it."
+  },
+  {
+    "slug": "retail-store-film",
+    "brand": "Brand film",
+    "tag": "Beyond ads",
+    "title": "Store Walkthrough",
+    "fmt": "YouTube · 16:9",
+    "ar": "16:9",
+    "role": "Shoot · Edit · Grade",
+    "hook": "A single continuous walk through a retail floor, graded warm and cut to the pace of the room."
   },
   {
     "slug": "mf-brand-film",
