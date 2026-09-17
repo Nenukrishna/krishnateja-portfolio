@@ -16,13 +16,16 @@ const MARQUEE = [
   'Movement Fitness',
   'Meta Ads',
   'Google Ads',
-  'Hindi',
-  'Tamil',
-  'Telugu',
-  'Kannada',
-  'Marathi',
-  'Bengali',
-  'Gujarati',
+  // Craft, not languages: naming Tamil and Gujarati here read as a claim to
+  // speak them, when the point is only that the masters ship localised.
+  'Hook-first editing',
+  'Performance creative',
+  'Motion graphics',
+  'Sound design & mix',
+  'Colour grading',
+  'AI-assisted production',
+  'Premiere Pro',
+  'After Effects',
 ];
 
 const CAPS = [

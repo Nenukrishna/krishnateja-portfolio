@@ -7,7 +7,7 @@ import { asset } from '@/lib/base';
 const STATS = [
   ['1,000+', 'Ad masters delivered'],
   ['7', 'Apps shipped for'],
-  ['7', 'Indian languages'],
+  ['7', 'Languages delivered'],
   ['4+', 'Years in the cut'],
 ];
 
