@@ -1,5 +1,50 @@
 [
   {
+    "slug": "mg-scalehouse-5signs",
+    "brand": "ScaleHouse (US agency)",
+    "tag": "Editing & motion graphics",
+    "title": "5 signs you should wait on TikTok Shop",
+    "fmt": "Talking head · explainer graphics · 9:16",
+    "ar": "9:16",
+    "hook": "Cut, grade, captions and explainer cards built to the client's brief: fee maths, order timeline, sample grid, compounding graphic. Pinterest SFX, no music."
+  },
+  {
+    "slug": "mg-scalehouse-model",
+    "brand": "ScaleHouse (US agency)",
+    "tag": "Editing & motion graphics",
+    "title": "The whole model",
+    "fmt": "Motion-graphics explainer · 9:16",
+    "ar": "9:16",
+    "hook": "The speaker steps in and out of designed scenes: failed-business stamps, number reveals, creator flow, plan card."
+  },
+  {
+    "slug": "mg-15years",
+    "brand": "Short-form",
+    "tag": "Editing & motion graphics",
+    "title": "15 years, before and after",
+    "fmt": "Reel edit · before/after · 9:16",
+    "ar": "9:16",
+    "hook": "Raw phone footage to a finished reel: reframe, grade, kinetic captions and a before/after reveal."
+  },
+  {
+    "slug": "mg-hormones",
+    "brand": "The Wellness Vibe",
+    "tag": "Editing & motion graphics",
+    "title": "Hormones, before and after",
+    "fmt": "Reel edit · before/after · 9:16",
+    "ar": "9:16",
+    "hook": "Creator reel taken from a flat room recording to a graded, captioned cut with a before/after split."
+  },
+  {
+    "slug": "mg-ksr-datavizon",
+    "brand": "KSR DataVizon",
+    "tag": "Editing & motion graphics",
+    "title": "Output chusi",
+    "fmt": "Kinetic type · before/after · 9:16",
+    "ar": "9:16",
+    "hook": "Typography-led edit: before/after title cards, red kinetic type, hard cuts on the beat."
+  },
+  {
     "slug": "ap-yamraj",
     "brand": "AlertPay",
     "tag": "AlertPay",
