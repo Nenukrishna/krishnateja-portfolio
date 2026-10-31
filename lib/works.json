@@ -1,21 +1,12 @@
 [
   {
-    "slug": "mg-scalehouse-5signs",
-    "brand": "ScaleHouse (US agency)",
-    "tag": "Editing & motion graphics",
-    "title": "5 signs you should wait on TikTok Shop",
-    "fmt": "Talking head · explainer graphics · 9:16",
-    "ar": "9:16",
-    "hook": "Cut, grade, captions and explainer cards built to the client's brief: fee maths, order timeline, sample grid, compounding graphic. Pinterest SFX, no music."
-  },
-  {
     "slug": "mg-scalehouse-model",
     "brand": "ScaleHouse (US agency)",
     "tag": "Editing & motion graphics",
     "title": "The whole model",
     "fmt": "Motion-graphics explainer · 9:16",
     "ar": "9:16",
-    "hook": "The speaker steps in and out of designed scenes: failed-business stamps, number reveals, creator flow, plan card."
+    "hook": "Full designed-scene explainer for a snack brand: failed-business stamp, number reveals, creator flow, 30-day plan, comment CTA."
   },
   {
     "slug": "mg-15years",
@@ -34,6 +25,15 @@
     "fmt": "Reel edit · before/after · 9:16",
     "ar": "9:16",
     "hook": "Creator reel taken from a flat room recording to a graded, captioned cut with a before/after split."
+  },
+  {
+    "slug": "mg-scalehouse-s02",
+    "brand": "ScaleHouse (US agency)",
+    "tag": "Editing & motion graphics",
+    "title": "3 ways people buy",
+    "fmt": "Talking head · real-footage cutaways · 9:16",
+    "ar": "9:16",
+    "hook": "Green-screen style talking head with TikTok Shop screens, creator videos and packaging shots behind the speaker, plus dark explainer cards."
   },
   {
     "slug": "mg-ksr-datavizon",
