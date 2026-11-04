@@ -1,5 +1,23 @@
 [
   {
+    "slug": "ap-message-soundboxes",
+    "brand": "AlertPay",
+    "tag": "AlertPay",
+    "title": "A Message to Soundboxes",
+    "fmt": "Meta · 9:16 · AI actor",
+    "ar": "9:16",
+    "hook": "A photoreal AI actor addresses every UPI soundbox in the country, then crushes one. Generated cast, real product, cinematic grade."
+  },
+  {
+    "slug": "ma-phone-fight",
+    "brand": "MyAutoPay",
+    "tag": "MyAutoPay",
+    "title": "What Did You Download?",
+    "fmt": "Meta · 9:16 · AI actors",
+    "ar": "9:16",
+    "hook": "A street-corner fight over money leaving every month. Two AI actors who read as real people, then the app UI that ends the argument."
+  },
+  {
     "slug": "mg-scalehouse-model",
     "brand": "ScaleHouse (US agency)",
     "tag": "Editing & motion graphics",

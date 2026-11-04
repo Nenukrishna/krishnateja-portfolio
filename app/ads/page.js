@@ -15,14 +15,23 @@ const ROLE_AI = 'AI casting and shot generation (Nano Banana Pro, Veo 3.1), perf
 
 const ADS = [
   {
-    slug: 'ap-auto-driver',
+    slug: 'ap-message-soundboxes',
     brand: 'AlertPay',
-    title: 'Auto Driver',
+    title: 'A Message to Soundboxes',
+    format: 'Direct address · Product reveal',
+    lang: 'Hindi · Meta · 9:16 · 23s',
+    hook: '“This message is for every UPI soundbox. This is the AlertPay app, and it will finish the soundbox.”',
+    why: 'A photoreal AI actor with real authority speaks straight to the old hardware, then destroys it. Bold red type lands each beat; the product closes it.',
+    role: ROLE_AI,
+  },
+  {
+    slug: 'ma-phone-fight',
+    brand: 'MyAutoPay',
+    title: 'What Did You Download?',
     format: 'Conflict open · Problem → solution',
-    lang: 'Hindi · Meta · 9:16 · 36s',
-    hook: '“Sir, give me my ₹2 back.” “No change, madam. What do you even get for ₹2?”',
-    why: 'The argument is the hook. No setup, a specific rupee amount, and the pain comes from the other person’s mouth, not a narrator.',
-    proof: 'A top hook for installs in its reporting cycle.',
+    lang: 'Hindi · Meta · 9:16 · 30s',
+    hook: '“What all did you download on my phone? Now money gets cut every month!”',
+    why: 'Two AI actors grabbing each other on a real street. The fight makes the problem obvious in two seconds, then the app UI shows every autopay and how to stop it.',
     role: ROLE_AI,
   },
   {
@@ -45,16 +54,6 @@ const ADS = [
     hook: '“Loan getting rejected again and again? Know the reason? Credit score and credit history.”',
     why: 'A loan bar stalls at 63% and flips to Rejected. It names the mechanism, not just the outcome, so the app is the obvious next step.',
     proof: 'A top hook for installs in its reporting cycle.',
-    role: ROLE_AI,
-  },
-  {
-    slug: 'ma-399-kat-gaye',
-    brand: 'MyAutoPay',
-    title: '₹399 Again',
-    format: 'Overheard conversation · Problem → solution',
-    lang: 'Hindi · Meta · 9:16',
-    hook: '“Ugh, ₹399 got deducted again. No idea what it’s for.” “How many autopays do you have active?”',
-    why: 'Starts on the bank SMS the viewer has been ignoring all month, then lets a friend ask the question that sells the product.',
     role: ROLE_AI,
   },
   {
@@ -83,7 +82,7 @@ export default function AdsPage() {
           </h1>
           <p className="ads-lede">
             Direct-response video for Meta and TikTok. Four are app-install ads for Indian fintech apps in Hindi;
-            one is for a US e-commerce agency. Every one opens on a real problem inside the first three seconds.
+            one is for a US e-commerce agency. The AI actors are generated, and every one hooks inside the first three seconds.
           </p>
           <ul className="ads-tools">
             <li>Premiere Pro</li>
