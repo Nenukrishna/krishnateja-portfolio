@@ -9,6 +9,20 @@ export const metadata = {
   description:
     'Five live Meta ads with the hook, the format and my role on each: AI casting and generation, edit, UI motion and sound.',
   alternates: { canonical: '/ads/' },
+  openGraph: {
+    title: 'Live ads — Krishna Teja, Performance Video Editor',
+    description: 'AI-actor ads and performance edits for Meta and TikTok, with the hook, format and my role on each.',
+    url: '/ads/',
+    siteName: 'Krishna Teja',
+    images: [{ url: '/media/og-ads.jpg', width: 1200, height: 630 }],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Live ads — Krishna Teja',
+    description: 'AI-actor ads and performance edits for Meta and TikTok.',
+    images: ['/media/og-ads.jpg'],
+  },
 };
 
 const ROLE_AI = 'AI casting and shot generation (Nano Banana Pro, Veo 3.1), performance direction, edit, UI motion in After Effects, sound mix';
