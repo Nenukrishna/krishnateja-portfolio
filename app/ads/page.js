@@ -59,11 +59,11 @@ const ADS = [
   {
     slug: 'mg-scalehouse-s02',
     brand: 'ScaleHouse · US e-commerce agency',
-    title: '3 Ways People Buy on TikTok Shop',
-    format: 'Talking head · Real-footage B-roll',
-    lang: 'English · TikTok / Reels · 9:16 · 46s',
-    hook: '“What is TikTok Shop? Here’s a simple version, the way it actually works in 2026.”',
-    why: 'Speaker over real TikTok Shop screens, creator videos and packing footage, with designed cards only where a number lands.',
+    title: 'Who Should NOT Be on TikTok Shop',
+    format: 'Talking head · Real B-roll · Motion graphics',
+    lang: 'English · TikTok / Reels · 9:16 · 55s',
+    hook: '“I’ll be honest. TikTok Shop isn’t for every brand. Here are five signs you should wait.”',
+    why: 'Every point lands on real footage: seller dashboards, creator commissions, packing lines. Numbered callouts, a glowing 20–30% bar and an animated order tracker carry the numbers.',
     role: 'Edit from the client’s raw talking head, B-roll sourcing, colour grade, captions, motion graphics, sound',
   },
 ];
